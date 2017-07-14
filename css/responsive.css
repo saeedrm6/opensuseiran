@@ -1,0 +1,18 @@
+@media screen and (min-width: 0px) and (max-width: 766px){
+	header ul li{
+    width: 100%;
+    text-align: center;
+	}
+	/*#opensuse-os {
+    height: 870px;
+	}*/
+	header ul li {
+		background: #bdc3c7;
+	}
+	header ul{
+		border-radius: 15px;
+	}
+	#test2{
+		display: none;
+	}
+}

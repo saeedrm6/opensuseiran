@@ -1,0 +1,277 @@
+@font-face {
+    font-family: 'iran';
+    src: url(fonts/IRANSansLight.woff) format("woff");
+}
+*{
+	font-family: 'iran','Roboto';
+}
+header {
+    background: #173f4f;
+    display: block;
+    padding: 20px 0;
+    /*position: fixed;*/
+    transition: all .5s ease;
+    width: 100%;
+    z-index: 100;
+}
+.container-fluid{
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+header #opensuseLogo, header ul li a {
+    transition: all .5s ease;
+}
+header #open_main_menu {
+    color: #ffffff;
+    cursor: pointer;
+    padding: 8px 4px;
+}
+header ul li {
+    display: inline-block;
+    padding: 5px 0 0 0;
+    /*background: #2c3e50;*/
+}
+header ul li a {
+    color: #35b9ab;
+    display: block;
+    font-family: 'iran','Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 18px;
+    text-transform: uppercase;
+    padding-bottom: 0.3em;
+    position: relative;
+    overflow: hidden;
+}
+header #opensuseLogo, header ul li a {
+    transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+}
+header ul li a:before {
+    background: #ffffff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    right: 50%;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    z-index: -1;
+}
+header ul li a:hover, header ul li a:focus, header ul li a:active {
+    text-decoration: none;
+    color: #ffffff;
+}
+header ul li{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+#opensuse-os {
+    background: #173f4f;
+    height: 720px;
+    /*overflow: hidden;*/
+    padding-bottom: 0;
+    position: relative;
+    transition: all .5s ease;
+    width: 100%;
+}
+section {
+    padding: 50px 0;
+}
+#opensuse-os article, #opensuse-os #more-information-os {
+    left: 0px;
+    padding-top: 25px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+#opensuse-os h3 {
+    color: #35b9ab;
+    font-family: 'iran','Roboto';
+    font-weight: 300;
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+#opensuse-os .os-main {
+    margin-bottom: 80px;
+}
+#opensuse-os .os-main .col-sm-6:first-of-type {
+    border-right: 1px solid #ecf0f1;
+    /*box-shadow: 1px solid #ecf0f1;*/
+}
+#opensuse-os .os-main .col-sm-6 {
+    height: 350px;
+}
+#opensuse-os .os-main .col-sm-6:last-of-type {
+    border-left: 1px solid #20586f;
+}
+#opensuse-os .os-main .col-sm-6 {
+    height: 350px;
+}
+#opensuse-os .os-main #openSUSE, #opensuse-os .os-main #tumbleweed {
+    cursor: pointer;
+    height: 350px;
+    padding: 50px;
+    transition: all ease .5s;
+}
+.distributions-icon img {
+    height: 57px;
+}
+#opensuse-os .os-main #openSUSE:hover, #opensuse-os .os-main #tumbleweed:hover {
+    margin-top: -1em;
+}
+#opensuse-os h1 {
+    color: #35b9ab;
+    font-weight: 300;
+}
+#opensuse-os h4 {
+    color: #fff;
+    line-height: 1.4em;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 430px;
+}
+.btn-default {
+    border: 1px solid #35b9ab;
+    background: transparent;
+    color: #35b9ab;
+}
+.moreinfo:hover{
+	color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+
+}
+/*.hidden-content {
+    display: none;
+}*/
+#opensuse-os .os-main .col-sm-6:last-of-type {
+    border-left: 1px solid #20586f;
+}
+#opensuse-tools .tools-laptop {
+    padding-right: 0;
+}
+.media-body {
+    direction: ltr;
+}
+#opensuse-tools .tools-container {
+    margin-top: 70px;
+}
+#carousel {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#slides {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+#slides ul {
+  list-style: none;
+  width: 100%;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#slides li {
+  width: 100%;
+  height: 250px;
+  float: left;
+  text-align: center;
+  position: relative;
+  font-family: 'iran','Roboto',lato, sans-serif;
+}
+
+/* Styling for prev and next buttons */
+
+.btn-bar {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: 40px;
+}
+
+#buttons {
+  padding: 0 0 5px 0;
+  float: right;
+}
+
+#buttons a {
+  text-align: center;
+  display: block;
+  font-size: 50px;
+  float: left;
+  outline: 0;
+  margin: 0 60px;
+  color: #b14943;
+  text-decoration: none;
+  display: block;
+  padding: 9px;
+  width: 35px;
+}
+
+a#prev:hover,
+a#next:hover {
+  color: #16a085;
+  text-shadow: .5px 0px #b14943;
+}
+
+.quote-phrase,
+.quote-author {
+  font-family: sans-serif;
+  font-weight: 300;
+  direction: rtl;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px 20px;
+  font-family: 'iran','Roboto','Lato', Calibri, Arial, sans-serif;
+}
+
+.quote-phrase {
+/*  height: 200px;*/
+  font-size: 24px;
+  color: #34495e;
+  direction: rtl;
+  font-style: italic;
+  text-shadow: .5px 0px #16a085;
+}
+
+.quote-marks {
+  font-size: 30px;
+  padding: 0 3px 3px;
+  position: inherit;
+}
+
+.quote-author {
+  font-style: normal;
+  font-size: 20px;
+  color: #b14943;
+  font-weight: 400;
+  height: 30px;
+}
+
+.quoteContainer,
+.authorContainer {
+  display: table;
+  width: 100%;
+}
